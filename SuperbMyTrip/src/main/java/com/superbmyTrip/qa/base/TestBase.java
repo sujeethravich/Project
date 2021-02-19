@@ -23,9 +23,9 @@ public class TestBase
 	{
 		prop=new Properties();
 		try {
-			FileInputStream ips=new FileInputStream("E:\\SUJEETH\\Workspace\\SuperbMyTrip\\src\\main\\java\\com\\superbTrip\\qa\\config\\config.properties");
+			FileInputStream ipss=new FileInputStream("E:\\SUJEETH\\Workspace\\SuperbMyTrip\\src\\main\\java\\com\\superbTrip\\qa\\config\\config.properties");
 			try {
-				prop.load(ips);
+				prop.load(ipss);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
